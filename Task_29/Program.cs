@@ -23,3 +23,28 @@ int[] GetArray(int arr_size)
 
     return result;
 }
+
+// Console.WriteLine("Введите размер массива");
+// int size = int.Parse(Console.ReadLine());
+// int num = 0;
+// int[] array = new int[size];
+
+// Index(array, size, num);
+// Console.WriteLine ("Получился следующий массив: ");
+// Console.WriteLine("[{0}]", string.Join(", ", array));
+
+// int[] Index(int[] array, int size, int num)
+// {
+//     num = 0;
+//     do
+//     {
+//         if (num < size)
+//         {
+//             Console.WriteLine("Введите элемент массива");
+//             array[num] = int.Parse(Console.ReadLine());
+//             num++;
+//         }
+//     } while (num < size);
+//     return array;
+// }
+        
