@@ -12,9 +12,9 @@ Console.WriteLine($"Число {num} возведенное в степень {r
 int task(int number, int degree)
 {
     int result = number;
-   for (int i = 1; i < degree; i++)
-   {
-   result = result * number;
-   }
-   return result;
+    for (int i = 1; i < degree; i++)
+    {
+        result = result * number;
+    }
+    return result;
 }

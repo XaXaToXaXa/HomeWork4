@@ -6,13 +6,13 @@ Console.WriteLine("Введите первое число ");
 int num = Math.Abs(Convert.ToInt32(Console.ReadLine()));
 if (num > 9)
 {
-Console.WriteLine($"Сумма цифр числа {num} равна {Sum(num)}");
+    Console.WriteLine($"Сумма цифр числа {num} равна {Sum(num)}");
 }
 else
 {
-   Console.WriteLine($"Введено однозначное число {num}"); 
+    Console.WriteLine($"Введено однозначное число {num}");
 }
-int Sum (int number)
+int Sum(int number)
 {
     int add = 0;
     int temp = 0;
@@ -20,7 +20,7 @@ int Sum (int number)
     {
         temp = number % 10;
         add = add + temp;
-        number = number /10;
+        number = number / 10;
     }
     return add;
 }
