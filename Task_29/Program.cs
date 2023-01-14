@@ -47,4 +47,3 @@ int[] GetArray(int arr_size)
 //     } while (num < size);
 //     return array;
 // }
-        
