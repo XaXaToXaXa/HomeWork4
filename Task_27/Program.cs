@@ -10,7 +10,7 @@ Console.WriteLine($"Сумма цифр числа {num} равна {Sum(num)}")
 }
 else
 {
-   Console.WriteLine($"Введено однохначное число {num}"); 
+   Console.WriteLine($"Введено однозначное число {num}"); 
 }
 int Sum (int number)
 {
