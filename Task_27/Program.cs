@@ -2,11 +2,11 @@
 // 452 -> 11
 // 82 -> 10
 // 9012 -> 12
-Console.WriteLine("Введите первое число ");
+Console.WriteLine("Введите целое число ");
 int num = Math.Abs(Convert.ToInt32(Console.ReadLine()));
 if (num > 9)
 {
-    Console.WriteLine($"Сумма цифр числа {num} равна {Sum(num)}");
+    Console.WriteLine($"Сумма цифр введенного числа {num} равна {Sum(num)}");
 }
 else
 {
